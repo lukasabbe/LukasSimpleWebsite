@@ -7,7 +7,7 @@ export default {
         adapter: adapter({
             pages: 'dist',
             assets: 'dist',
-            fallback: 'index.html' // Ensures client-side routing works in Nginx
+            fallback: 'index.html'
         })
     }
 };
