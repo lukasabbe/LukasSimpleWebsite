@@ -6,10 +6,8 @@ const config = {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      // Tell SvelteKit to output to 'dist' to match Coolify's default expectations
       pages: 'dist',
       assets: 'dist',
-      // Generate an index.html fallback for client-side SPA routing
       fallback: 'index.html',
       precompress: false,
       strict: true
