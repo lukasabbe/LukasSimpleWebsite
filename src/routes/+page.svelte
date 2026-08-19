@@ -20,7 +20,7 @@
     <img src={favicon} alt="icon" class="w-80 h-80 rounded-full mb-8 m-10">
     <div class="flex flex-col items-center">
         <h1 class="text-7xl font-bold text-white">Lukas</h1>
-        <p class="text-3xl text-white font-bold">Programmer and Software Engineer student</p>
+        <p class="text-3xl text-white font-bold text-center">Programmer and Software Engineer student</p>
     </div>
     <div class="flex flex-col items-center mt-8">
         <h1 class="text-3xl font-bold text-white">Links:</h1>
