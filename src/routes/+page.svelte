@@ -1,8 +1,6 @@
 <script lang="ts">
     import favicon from '$lib/assets/favicon.png';
 	import Tooltip from '$lib/components/Tooltip.svelte';
-	import ToolTip from "$lib/components/Tooltip.svelte"
-	import { text } from '@sveltejs/kit';
     let downloads = $state(0);
     async function main(){
         downloads = await fetchDownloads();

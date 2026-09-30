@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './layout.css';
+	import '@fontsource-variable/fraunces';
 	import favicon from '$lib/assets/favicon.png';
 
 	let { children } = $props();
